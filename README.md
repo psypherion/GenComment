@@ -21,19 +21,23 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/ky13-troj/GenComment.git
-2. ```bash
+2. Move into the directory
+   
+   ```bash
    cd GenComment
 3. Install requirements.txt
+   
    ```bash
    pip install -r requirements.txt
 
 ## Usage
-1. Run the main script
+1. Run the main script :
+
    ```bash
    python main.py
-2. A GUI will prompt you to select the target folder containing your C programs.
+3. A GUI will prompt you to select the target folder containing your C programs.
 
-3. The program will process each program, generating comments, and save the modified code in the "Modified_Programs" folder.
+4. The program will process each program, generating comments, and save the modified code in the "Modified_Programs" folder.
 
 
 ## Acknowledgement
@@ -55,9 +59,8 @@ To use the OpenAI API, you need to create an API key. Follow these steps:
 3. Once logged in, navigate to the API section.
 4. Create a new API key by following the provided instructions.
 5. Copy the generated API key.
-6. ```bash
-    Replace `"your_api_key_here"` with your actual OpenAI API key.
-7. Write this inside .env file :
+6. Replace `"your_api_key_here"` with your actual OpenAI API key.
+8. Write this inside .env file :
    ```bash
    OPENAI_API_KEY = 'your api key'
 **Note:** Treat your API key as a sensitive credential and keep it secure. You can set it as an environment variable or directly use it in your code.
