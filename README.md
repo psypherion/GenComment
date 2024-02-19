@@ -21,7 +21,9 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/ky13-troj/GenComment.git
-2. Install requirements.txt
+2. ```bash
+   cd GenComment
+3. Install requirements.txt
    ```bash
    pip install -r requirements.txt
 
