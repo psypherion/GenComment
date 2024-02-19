@@ -1,6 +1,6 @@
 # GenComment
 
-GenComment is a Python program that utilizes OpenAI's GPT-3.5-turbo model to automatically generate comments for C programs.
+GenComment is a Python program that utilizes OpenAI's GPT-3.5-turbo model to automatically generate comments for programs.
 
 ## Features
 
@@ -35,9 +35,9 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    python main.py
-3. A GUI will prompt you to select the target folder containing your C programs.
+3. A GUI will prompt you to select the target folder containing your programs.
 
-4. The program will process each program, generating comments, and save the modified code in the "Modified_Programs" folder.
+4. The program will process each program, generate comments, and save the modified code in the "Modified_Programs" folder.
 
 
 ## Acknowledgement
