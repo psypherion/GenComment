@@ -60,7 +60,11 @@ To use the OpenAI API, you need to create an API key. Follow these steps:
 4. Create a new API key by following the provided instructions.
 5. Copy the generated API key.
 6. Replace `"your_api_key_here"` with your actual OpenAI API key.
-8. Write this inside .env file :
+8. Create an .env file :
    ```bash
    OPENAI_API_KEY = 'your api key'
+9. or paste this in the main file :
+    ```bash
+    OPENAI_API_KEY = 'your api key'
+
 **Note:** Treat your API key as a sensitive credential and keep it secure. You can set it as an environment variable or directly use it in your code.
